@@ -32,12 +32,15 @@ const categoryIcons: Record<
   Academic: GraduationCap,
 }
 
+const toSlug = (value: string) =>
+  value.toLowerCase().replace(/\s+/g, "-")
+
 export default function CategoriesPage() {
   const categoryStats = categories
     .filter((cat) => cat !== "All")
     .map((category) => ({
       name: category,
-      encoded: encodeURIComponent(category),
+      slug: toSlug(category),
       count: playlists.filter((p) => p.category === category).length,
       Icon: categoryIcons[category] || Code,
     }))
@@ -60,7 +63,7 @@ export default function CategoriesPage() {
           {categoryStats.map((category, index) => (
             <Link
               key={category.name}
-              href={`/categories/${encodeURIComponent(category.name)}`}
+              href={`/categories/${category.slug}`}
             >
               <Card
                 className="group h-full cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
