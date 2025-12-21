@@ -5,27 +5,36 @@ import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { notFound } from "next/navigation"
 
+const toSlug = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/\s+/g, "-")
+
 export function generateStaticParams() {
   return categories
     .filter((cat) => cat !== "All")
     .map((category) => ({
-      slug: encodeURIComponent(category),
+      slug: toSlug(category),
     }))
 }
 
-export default async function CategoryPage({
+export default function CategoryPage({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params: { slug: string }
 }) {
-  const { slug } = await params
-  const categoryName = decodeURIComponent(slug)
+  const categoryName = categories.find(
+    (category) => toSlug(category) === params.slug
+  )
 
-  if (!categories.includes(categoryName as any)) {
+  if (!categoryName) {
     notFound()
   }
 
-  const categoryPlaylists = playlists.filter((p) => p.category === categoryName)
+  const categoryPlaylists = playlists.filter(
+    (playlist) => playlist.category === categoryName
+  )
 
   return (
     <div className="min-h-screen bg-background">
@@ -38,31 +47,46 @@ export default async function CategoryPage({
             Home
           </Link>
           <ChevronRight className="h-4 w-4" />
-          <Link href="/categories" className="hover:text-foreground transition-colors">
+          <Link
+            href="/categories"
+            className="hover:text-foreground transition-colors"
+          >
             Categories
           </Link>
           <ChevronRight className="h-4 w-4" />
-          <span className="text-foreground font-medium">{categoryName}</span>
+          <span className="text-foreground font-medium">
+            {categoryName}
+          </span>
         </div>
 
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">{categoryName}</h1>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
+            {categoryName}
+          </h1>
           <p className="text-lg text-muted-foreground">
-            {categoryPlaylists.length} {categoryPlaylists.length === 1 ? "playlist" : "playlists"} in this category
+            {categoryPlaylists.length}{" "}
+            {categoryPlaylists.length === 1 ? "playlist" : "playlists"} in this
+            category
           </p>
         </div>
 
         {/* Playlists Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {categoryPlaylists.map((playlist, index) => (
-            <PlaylistCard key={playlist.id} playlist={playlist} index={index} />
+            <PlaylistCard
+              key={playlist.id}
+              playlist={playlist}
+              index={index}
+            />
           ))}
         </div>
 
         {categoryPlaylists.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-muted-foreground">No playlists found in this category.</p>
+            <p className="text-muted-foreground">
+              No playlists found in this category.
+            </p>
           </div>
         )}
       </div>
