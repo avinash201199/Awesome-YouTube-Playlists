@@ -60,7 +60,7 @@ export default function CategoriesPage() {
           {categoryStats.map((category, index) => (
             <Link
               key={category.name}
-              href={`/categories/${encodeURIComponent(category)}`}
+              href={`/categories/${encodeURIComponent(category.name)}`}
             >
               <Card
                 className="group h-full cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
