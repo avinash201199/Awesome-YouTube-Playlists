@@ -1,28 +1,32 @@
 import { Navbar } from "@/components/navbar"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { BookOpen, Target, Zap, Users } from "lucide-react"
+import { BookOpen, Target, Zap, Users, Twitter } from "lucide-react"
 
 export default function AboutPage() {
   const features = [
     {
       icon: BookOpen,
       title: "Curated Content",
-      description: "Every playlist is handpicked to ensure high-quality educational content across diverse topics.",
+      description:
+        "Only high quality playlists that actually teach, not random long videos or clickbait.",
     },
     {
       icon: Target,
-      title: "Organized Learning",
-      description: "Playlists are categorized and tagged to help you find exactly what you need to learn.",
+      title: "Structured Learning",
+      description:
+        "Everything is organized by topic so you can follow a clear learning path.",
     },
     {
       icon: Zap,
       title: "Always Free",
-      description: "All resources are completely free YouTube playlists - no subscriptions, no paywalls.",
+      description:
+        "All resources are free YouTube playlists with no subscriptions or hidden costs.",
     },
     {
       icon: Users,
-      title: "Community Driven",
-      description: "Built by learners, for learners. We're constantly adding new playlists based on demand.",
+      title: "Community Powered",
+      description:
+        "Playlists are added and improved continuously based on learner feedback.",
     },
   ]
 
@@ -30,55 +34,94 @@ export default function AboutPage() {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="mb-12 text-center animate-fade-in-up">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">About Awesome YouTube Playlists</h1>
-          <p className="mt-4 text-lg text-muted-foreground">Your gateway to free, high-quality educational content</p>
+      <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mb-20 text-center animate-fade-in-up">
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              Awesome YouTube Playlists
+            </span>
+          </h1>
+          <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
+            A curated collection of the best free YouTube playlists to help you
+            learn faster, smarter, and without distractions
+          </p>
         </div>
 
-        <div
-          className="prose prose-neutral dark:prose-invert max-w-none mb-12 animate-fade-in-up"
-          style={{ animationDelay: "100ms" }}
-        >
-          <Card>
-            <CardContent className="pt-6">
-              <p className="text-pretty text-base leading-relaxed">
-                Awesome YouTube Playlists is a comprehensive, open-source database of curated YouTube playlists covering
-                a wide range of topics from programming and artificial intelligence to business, design, and personal
-                development.
-              </p>
-              <p className="mt-4 text-pretty text-base leading-relaxed">
-                We believe that education should be accessible to everyone. That's why we've gathered over 150 free
-                YouTube playlists to help you master new skills, advance your career, or explore new interests.
-              </p>
-              <p className="mt-4 text-pretty text-base leading-relaxed">
-                Whether you're a beginner starting your learning journey or an experienced professional looking to
-                expand your knowledge, you'll find valuable resources organized and ready for you. This project is
-                maintained by the community and contributions are always welcome!
-              </p>
-            </CardContent>
-          </Card>
-        </div>
+        <Card className="mb-20 animate-fade-in-up shadow-sm">
+          <CardHeader>
+            <CardTitle className="text-2xl">Why this platform exists</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-5 text-base leading-relaxed text-muted-foreground">
+            <p>
+              The internet has endless learning content, but finding the right
+              playlists takes time and effort. Awesome YouTube Playlists solves
+              this by collecting only the best structured playlists across tech,
+              business, design, and personal growth
+            </p>
+            <p>
+              Instead of jumping between random videos, you get organized
+              learning resources that help you build real skills step by step
+            </p>
+            <p>
+              Whether you are a beginner or already experienced, this platform
+              helps you save time and focus purely on learning
+            </p>
+          </CardContent>
+        </Card>
 
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="mb-24 grid gap-6 sm:grid-cols-2">
           {features.map((feature, index) => (
             <Card
               key={feature.title}
-              className="animate-fade-in-up"
+              className="group animate-fade-in-up transition-all hover:-translate-y-1 hover:shadow-md"
               style={{ animationDelay: `${200 + index * 100}ms` }}
             >
               <CardHeader>
-                <div className="mb-2 inline-flex rounded-lg bg-accent/10 p-3 w-fit">
+                <div className="mb-3 inline-flex rounded-xl bg-accent/10 p-3 w-fit group-hover:bg-accent/20 transition-colors">
                   <feature.icon className="h-6 w-6 text-accent" />
                 </div>
-                <CardTitle>{feature.title}</CardTitle>
+                <CardTitle className="text-lg">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground leading-relaxed">{feature.description}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {feature.description}
+                </p>
               </CardContent>
             </Card>
           ))}
         </div>
+
+        <Card className="animate-fade-in-up shadow-sm">
+          <CardHeader>
+            <CardTitle className="text-2xl">About Me</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6 text-muted-foreground">
+            <p className="text-base leading-relaxed">
+              Hi, I am the creator of Awesome YouTube Playlists. I actively
+              curate and share learning resources, roadmaps, and tools to help
+              students and professionals grow in tech and beyond
+            </p>
+            <p className="text-base leading-relaxed">
+              I believe consistent learning and sharing valuable resources can
+              change careers. This platform is an extension of that belief
+            </p>
+
+            <div className="flex items-center gap-4 pt-2">
+              <a
+                href="https://x.com/AvinashSingh_20"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+              >
+                <Twitter className="h-4 w-4" />
+                Follow me on X
+              </a>
+              <span className="text-sm">
+                I regularly share playlists, learning tips, and career insights
+              </span>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   )
