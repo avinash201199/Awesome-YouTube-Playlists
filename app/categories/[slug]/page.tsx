@@ -54,6 +54,14 @@ export default function CategoryPage({
             />
           ))}
         </div>
+
+        {categoryPlaylists.length === 0 && (
+          <div className="text-center py-12">
+            <p className="text-muted-foreground">
+              No playlists found in this category.
+            </p>
+          </div>
+        )}
       </div>
     </div>
   )
