@@ -24,16 +24,18 @@ export default function CategoryPage({
 }: {
   params: { slug: string }
 }) {
-  const categoryName = categories.find(
+  const matchedCategory = categories.find(
     (category) => toSlug(category) === params.slug
   )
 
-  if (!categoryName) {
+  if (!matchedCategory) {
     notFound()
   }
 
+  const category = matchedCategory
+
   const categoryPlaylists = playlists.filter(
-    (playlist) => playlist.category === categoryName
+    (playlist) => playlist.category === category
   )
 
   return (
@@ -41,7 +43,6 @@ export default function CategoryPage({
       <Navbar />
 
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        {/* Breadcrumb */}
         <div className="mb-8 flex items-center gap-2 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground transition-colors">
             Home
@@ -55,14 +56,13 @@ export default function CategoryPage({
           </Link>
           <ChevronRight className="h-4 w-4" />
           <span className="text-foreground font-medium">
-            {categoryName}
+            {category}
           </span>
         </div>
 
-        {/* Header */}
         <div className="mb-12">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
-            {categoryName}
+            {category}
           </h1>
           <p className="text-lg text-muted-foreground">
             {categoryPlaylists.length}{" "}
@@ -71,7 +71,6 @@ export default function CategoryPage({
           </p>
         </div>
 
-        {/* Playlists Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {categoryPlaylists.map((playlist, index) => (
             <PlaylistCard
