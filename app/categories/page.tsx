@@ -1,70 +1,96 @@
+import type React from "react"
 import { Navbar } from "@/components/navbar"
-import { playlists, categories } from "@/lib/playlists"
-import { PlaylistCard } from "@/components/playlist-card"
+import { categories, playlists } from "@/lib/playlists"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
-import { ChevronRight } from "lucide-react"
-import { notFound } from "next/navigation"
+import {
+  Brain,
+  Code,
+  Cloud,
+  Database,
+  Palette,
+  Briefcase,
+  Shield,
+  Globe,
+  User,
+  GraduationCap,
+} from "lucide-react"
 
-export function generateStaticParams() {
-  return categories
-    .filter((cat) => cat !== "All")
-    .map((category) => ({
-      slug: encodeURIComponent(category),
-    }))
+const categoryIcons: Record<
+  string,
+  React.ComponentType<{ className?: string }>
+> = {
+  "AI & Machine Learning": Brain,
+  Programming: Code,
+  "Cloud & DevOps": Cloud,
+  "Data Science": Database,
+  "Design & Creative": Palette,
+  "Business & Finance": Briefcase,
+  Cybersecurity: Shield,
+  "Web Development": Globe,
+  "Personal Development": User,
+  Academic: GraduationCap,
 }
 
-export default async function CategoryPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
-  const { slug } = await params
-  const categoryName = decodeURIComponent(slug)
-
-  if (!categories.includes(categoryName as any)) {
-    notFound()
-  }
-
-  const categoryPlaylists = playlists.filter((p) => p.category === categoryName)
+export default function CategoriesPage() {
+  const categoryStats = categories
+    .filter((cat) => cat !== "All")
+    .map((category) => ({
+      name: category,
+      encoded: encodeURIComponent(category),
+      count: playlists.filter((p) => p.category === category).length,
+      Icon: categoryIcons[category] || Code,
+    }))
 
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
 
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        {/* Breadcrumb */}
-        <div className="mb-8 flex items-center gap-2 text-sm text-muted-foreground">
-          <Link href="/" className="hover:text-foreground transition-colors">
-            Home
-          </Link>
-          <ChevronRight className="h-4 w-4" />
-          <Link href="/categories" className="hover:text-foreground transition-colors">
-            Categories
-          </Link>
-          <ChevronRight className="h-4 w-4" />
-          <span className="text-foreground font-medium">{categoryName}</span>
-        </div>
-
-        {/* Header */}
-        <div className="mb-12">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">{categoryName}</h1>
-          <p className="text-lg text-muted-foreground">
-            {categoryPlaylists.length} {categoryPlaylists.length === 1 ? "playlist" : "playlists"} in this category
+        <div className="mb-12 text-center">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            Browse by Category
+          </h1>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Explore playlists organized by topic
           </p>
         </div>
 
-        {/* Playlists Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {categoryPlaylists.map((playlist, index) => (
-            <PlaylistCard key={playlist.id} playlist={playlist} index={index} />
+          {categoryStats.map((category, index) => (
+            <Link
+              key={category.name}
+              href={`/categories/${category.encoded}`}
+            >
+              <Card
+                className="group h-full cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                style={{ animationDelay: `${index * 50}ms` }}
+              >
+                <CardHeader>
+                  <div className="flex items-center gap-3">
+                    <div className="rounded-lg bg-accent/10 p-3">
+                      <category.Icon className="h-6 w-6 text-accent" />
+                    </div>
+                    <div className="flex-1">
+                      <CardTitle className="text-lg">
+                        {category.name}
+                      </CardTitle>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {category.count}{" "}
+                        {category.count === 1 ? "playlist" : "playlists"}
+                      </p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-accent">
+                    Explore →
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
           ))}
         </div>
-
-        {categoryPlaylists.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-muted-foreground">No playlists found in this category.</p>
-          </div>
-        )}
       </div>
     </div>
   )
