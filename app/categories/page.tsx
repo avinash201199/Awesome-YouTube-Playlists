@@ -3,23 +3,9 @@ import { Navbar } from "@/components/navbar"
 import { categories, playlists } from "@/lib/playlists"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
-import {
-  Brain,
-  Code,
-  Cloud,
-  Database,
-  Palette,
-  Briefcase,
-  Shield,
-  Globe,
-  User,
-  GraduationCap,
-} from "lucide-react"
+import { Brain, Code, Cloud, Database, Palette, Briefcase, Shield, Globe, User, GraduationCap } from "lucide-react"
 
-const categoryIcons: Record<
-  string,
-  React.ComponentType<{ className?: string }>
-> = {
+const categoryIcons: Record<string, React.ComponentType<{ className?: string }>> = {
   "AI & Machine Learning": Brain,
   Programming: Code,
   "Cloud & DevOps": Cloud,
@@ -32,15 +18,11 @@ const categoryIcons: Record<
   Academic: GraduationCap,
 }
 
-const toSlug = (value: string) =>
-  value.toLowerCase().replace(/\s+/g, "-")
-
 export default function CategoriesPage() {
   const categoryStats = categories
     .filter((cat) => cat !== "All")
     .map((category) => ({
       name: category,
-      slug: toSlug(category),
       count: playlists.filter((p) => p.category === category).length,
       Icon: categoryIcons[category] || Code,
     }))
@@ -51,22 +33,15 @@ export default function CategoriesPage() {
 
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-12 text-center">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            Browse by Category
-          </h1>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Explore playlists organized by topic
-          </p>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Browse by Category</h1>
+          <p className="mt-4 text-lg text-muted-foreground">Explore playlists organized by topic</p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {categoryStats.map((category, index) => (
-            <Link
-              key={category.name}
-              href={`/categories/${category.slug}`}
-            >
+            <Link key={category.name} href={`/categories/${encodeURIComponent(category.name)}`}>
               <Card
-                className="group h-full cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                className="group h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up cursor-pointer"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
                 <CardHeader>
@@ -75,20 +50,15 @@ export default function CategoriesPage() {
                       <category.Icon className="h-6 w-6 text-accent" />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-lg">
-                        {category.name}
-                      </CardTitle>
+                      <CardTitle className="text-lg">{category.name}</CardTitle>
                       <p className="mt-1 text-sm text-muted-foreground">
-                        {category.count}{" "}
-                        {category.count === 1 ? "playlist" : "playlists"}
+                        {category.count} {category.count === 1 ? "playlist" : "playlists"}
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-accent">
-                    Explore →
-                  </p>
+                  <p className="text-sm text-accent group-hover:underline">Explore →</p>
                 </CardContent>
               </Card>
             </Link>
