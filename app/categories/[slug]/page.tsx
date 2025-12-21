@@ -5,21 +5,12 @@ import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { notFound } from "next/navigation"
 
-export function generateStaticParams() {
-  return categories
-    .filter((cat) => cat !== "All")
-    .map((category) => ({
-      slug: encodeURIComponent(category),
-    }))
-}
-
 export default function CategoryPage({
   params,
 }: {
   params: { slug: string }
 }) {
-  const { slug } = params
-  const categoryName = decodeURIComponent(slug)
+  const categoryName = decodeURIComponent(params.slug)
 
   if (!categories.includes(categoryName as any)) {
     notFound()
@@ -63,14 +54,6 @@ export default function CategoryPage({
             />
           ))}
         </div>
-
-        {categoryPlaylists.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-muted-foreground">
-              No playlists found in this category.
-            </p>
-          </div>
-        )}
       </div>
     </div>
   )
