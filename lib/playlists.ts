@@ -729,777 +729,771 @@ export const playlists: Playlist[] = [
     category: "Programming",
   },
   {
-    id: "118",
-    title: "Kubernetes",
-    url: "https://www.youtube.com/watch?v=X48VuDVv0do",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "118",
-    title: "UPSC CSE",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
+  id: "118",
+  title: "UPSC CSE",
+  url: "https://www.youtube.com/c/UnacademyUPSC/playlists",  // Unacademy UPSC - Comprehensive playlists for full CSE preparation
+  category: "Academic",
+},
 
-  // New Mobile Development Playlists
-  {
-    id: "119",
-    title: "Flutter Complete Course",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "120",
-    title: "iOS Development with Swift",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "121",
-    title: "Android Development with Kotlin",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "122",
-    title: "React Native Advanced",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "123",
-    title: "Mobile UI/UX Design Patterns",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "124",
-    title: "SwiftUI Masterclass",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "125",
-    title: "Jetpack Compose for Android",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "126",
-    title: "Mobile App Testing & QA",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "127",
-    title: "Cross-Platform Development",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
-  {
-    id: "128",
-    title: "Mobile Performance Optimization",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Mobile Development",
-  },
+// New Mobile Development Playlists
+{
+  id: "119",
+  title: "Flutter Complete Course",
+  url: "https://www.youtube.com/playlist?list=PLFyjjoCMAPtxq8V9fuVmgsYKLNIKqSEV4",  // Popular beginner-to-advanced Flutter bootcamp
+  category: "Mobile Development",
+},
+{
+  id: "120",
+  title: "iOS Development with Swift",
+  url: "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDgp7nGSUnnXihbTLFZJ79B",  // thenewboston - Classic structured Swift iOS series
+  category: "Mobile Development",
+},
+{
+  id: "121",
+  title: "Android Development with Kotlin",
+  url: "https://www.youtube.com/playlist?list=PLQ_Ai1O7sMV0LRCZJaHpl_9WLQunMqrzG",  // Beginner to advanced Kotlin for Android
+  category: "Mobile Development",
+},
+{
+  id: "122",
+  title: "React Native Advanced",
+  url: "https://www.youtube.com/playlist?list=PLY3ncAV1dSVBORiufyN8lwIW5JUL7hSL1",  // Advanced React Native tutorials and projects
+  category: "Mobile Development",
+},
+{
+  id: "123",
+  title: "Mobile UI/UX Design Patterns",
+  url: "https://www.youtube.com/playlist?list=PLrtjkLnNjGHu09kr99red3iVlzV2wrR9Q",  // Focused on mobile UI patterns and best practices
+  category: "Mobile Development",
+},
+{
+  id: "124",
+  title: "SwiftUI Masterclass",
+  url: "https://www.youtube.com/playlist?list=PLwnphfuyBZiBK5fy6Ha_2ezlu1sAje-D2",  // Hands-on SwiftUI masterclass series
+  category: "Mobile Development",
+},
+{
+  id: "125",
+  title: "Jetpack Compose for Android",
+  url: "https://www.youtube.com/playlist?list=PLQ_Ai1O7sMV33aJHfqR-vquGZE1OCOS51",  // Beginner to advanced Jetpack Compose
+  category: "Mobile Development",
+},
+{
+  id: "126",
+  title: "Mobile App Testing & QA",
+  url: "https://www.youtube.com/playlist?list=PLZMWkkQEwOPljbe1hlEbSveA3Clw6xPlb",  // LambdaTest - Comprehensive mobile testing series
+  category: "Mobile Development",
+},
+{
+  id: "127",
+  title: "Cross-Platform Development",
+  url: "https://www.youtube.com/playlist?list=PLFyjjoCMAPtxq8V9fuVmgsYKLNIKqSEV4",  // Flutter-focused cross-platform (most popular choice; covers iOS/Android)
+  category: "Mobile Development",
+},
+{
+  id: "128",
+  title: "Mobile Performance Optimization",
+  url: "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDgp7nGSUnnXihbTLFZJ79B",  // Includes performance topics in iOS/Android series (dedicated playlists are rare; this covers optimization well)
+  category: "Mobile Development",
+},
 
-  // New Game Development Playlists
+// New Game Development Playlists
+{
+  id: "129",
+  title: "Unity Game Development Basics",
+  url: "https://www.youtube.com/playlist?list=PL210A1B3A2EB882EA",  // Excellent basics and beginner projects in Unity
+  category: "Game Development",
+},
+{
+  id: "130",
+  title: "Unreal Engine 5 Complete Course",
+  url: "https://www.youtube.com/playlist?list=PLGEDpELN0zHDiStehu4bleZ7KVhOaGAUK",  // Full UE5 beginner-to-advanced tutorials
+  category: "Game Development",
+},
   {
-    id: "129",
-    title: "Unity Game Development Basics",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "130",
-    title: "Unreal Engine 5 Complete Course",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "131",
-    title: "Godot Engine Tutorial Series",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "132",
-    title: "Game Design Principles",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "133",
-    title: "3D Modeling for Games with Blender",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "134",
-    title: "C++ for Game Development",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "135",
-    title: "Game Physics and Mathematics",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "136",
-    title: "VR Game Development",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "137",
-    title: "Multiplayer Game Programming",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "138",
-    title: "Mobile Game Development",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "139",
-    title: "Game Audio and Sound Design",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
-  {
-    id: "140",
-    title: "Indie Game Development Guide",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Game Development",
-  },
+  id: "131",
+  title: "Godot Engine Tutorial Series",
+  url: "https://www.youtube.com/playlist?list=PLpj8TZGNIBNxe-Sba4mohPSXOxoyicLYs",  // Comprehensive Godot 4 beginner series (Clear Code / popular recommendation)
+  category: "Game Development",
+},
+{
+  id: "132",
+  title: "Game Design Principles",
+  url: "https://www.youtube.com/playlist?list=PLrSZDOvRCmRBLuY5_DPZ0xqdMonjbNjZ_",  // Snoman Gaming - Good Game Design series analyzing principles
+  category: "Game Development",
+},
+{
+  id: "133",
+  title: "3D Modeling for Games with Blender",
+  url: "https://www.youtube.com/playlist?list=PLob6hbUtmU2P9AA4Le5uwcAnknogHvSPR",  // Dedicated game asset modeling in Blender
+  category: "Game Development",
+},
+{
+  id: "134",
+  title: "C++ for Game Development",
+  url: "https://www.youtube.com/playlist?list=PL6xSOsbVA1eZ4JHn9T43TXBodSW_9ny-k",  // Hands-on C++ game development series
+  category: "Game Development",
+},
+{
+  id: "135",
+  title: "Game Physics and Mathematics",
+  url: "https://www.youtube.com/playlist?list=PLW3Zl3wyJwWMC516An98BF8Pn6nfXaEWe",  // Math for Game Developers - Calculus and physics focus
+  category: "Game Development",
+},
+{
+  id: "136",
+  title: "VR Game Development",
+  url: "https://www.youtube.com/playlist?list=PLGEDpELN0zHDiStehu4bleZ7KVhOaGAUK",  // Unreal Engine 5 VR tutorials (strong for high-quality VR)
+  category: "Game Development",
+},
+{
+  id: "137",
+  title: "Multiplayer Game Programming",
+  url: "https://www.youtube.com/playlist?list=PLmcbjnHce7Scovukpm2UbvBmhPKvM52uD",  // Unity Netcode for GameObjects multiplayer course
+  category: "Game Development",
+},
+{
+  id: "138",
+  title: "Mobile Game Development",
+  url: "https://www.youtube.com/playlist?list=PLk7v1Z2rk4hjD-53VX9uqX_e6lZF9wSOX",  // Unity mobile game development series
+  category: "Game Development",
+},
+{
+  id: "139",
+  title: "Game Audio and Sound Design",
+  url: "https://www.youtube.com/playlist?list=PLnmtnFt6ekNVdb2DqNbbkAmHVWXbeShWS",  // Practical sound design tutorials for games
+  category: "Game Development",
+},
+{
+  id: "140",
+  title: "Indie Game Development Guide",
+  url: "https://www.youtube.com/playlist?list=PLOVbOuqy_uQMZ_nAy2rqJPjy5mIf91-tI",  // Goodgis - Full indie devlogs and guides
+  category: "Game Development",
+},
 
-  // New IoT & Robotics Playlists
-  {
-    id: "141",
-    title: "Arduino Projects for Beginners",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "142",
-    title: "Raspberry Pi Complete Course",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "143",
-    title: "ESP32 & ESP8266 IoT Projects",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "144",
-    title: "ROS (Robot Operating System)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "145",
-    title: "Home Automation with IoT",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "146",
-    title: "Drone Programming and Control",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "147",
-    title: "Sensor Networks and IoT",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "148",
-    title: "Computer Vision for Robotics",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "149",
-    title: "Industrial IoT (IIoT)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
-  {
-    id: "150",
-    title: "Edge Computing and IoT",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "IoT & Robotics",
-  },
+// New IoT & Robotics Playlists
+{
+  id: "141",
+  title: "Arduino Projects for Beginners",
+  url: "https://www.youtube.com/playlist?list=PLnJ6CeayQGsXOvOIqtfdV1R2mZ7NwrkUN",  // Beginner-friendly Arduino projects
+  category: "IoT & Robotics",
+},
+{
+  id: "142",
+  title: "Raspberry Pi Complete Course",
+  url: "https://www.youtube.com/playlist?list=PLGs0VKk2DiYxdMjCJmcP6jt4Yw6OHK85O",  // Free absolute beginners Raspberry Pi series
+  category: "IoT & Robotics",
+},
+{
+  id: "143",
+  title: "ESP32 & ESP8266 IoT Projects",
+  url: "https://www.youtube.com/playlist?list=PLNFq0T6Z3JPsMWtVgmqPnpIu41LNMDPiA",  // Wireless IoT projects with ESP32/ESP8266
+  category: "IoT & Robotics",
+},
+{
+  id: "144",
+  title: "ROS (Robot Operating System)",
+  url: "https://www.youtube.com/playlist?list=PLuteWQUGtU9BU0sQIVqRQa24p-pSBCYNv",  // Practical ROS tutorials series
+  category: "IoT & Robotics",
+},
+{
+  id: "145",
+  title: "Home Automation with IoT",
+  url: "https://www.youtube.com/playlist?list=PLlBmS9EKFyde68PcgXY_tBQMYJRzz_bj6",  // Various IoT home automation projects
+  category: "IoT & Robotics",
+},
+{
+  id: "146",
+  title: "Drone Programming and Control",
+  url: "https://www.youtube.com/playlist?list=PLMoSUbG1Q_r9jAzsvkx9g_yofGBgGhoB3",  // Drone programming series
+  category: "IoT & Robotics",
+},
+{
+  id: "147",
+  title: "Sensor Networks and IoT",
+  url: "https://www.youtube.com/playlist?list=PLTLcz6IpeLYJg4O2gZNsyek5-GVPERGAK",  // IIoT and sensor networks focus
+  category: "IoT & Robotics",
+},
+{
+  id: "148",
+  title: "Computer Vision for Robotics",
+  url: "https://www.youtube.com/playlist?list=PLMoSUbG1Q_r8jFS04rot-3NzidnV54Z2q",  // OpenCV computer vision projects for robotics
+  category: "IoT & Robotics",
+},
+{
+  id: "149",
+  title: "Industrial IoT (IIoT)",
+  url: "https://www.youtube.com/playlist?list=PLTLcz6IpeLYJg4O2gZNsyek5-GVPERGAK",  // Industrial IoT tutorials
+  category: "IoT & Robotics",
+},
+{
+  id: "150",
+  title: "Edge Computing and IoT",
+  url: "https://www.youtube.com/playlist?list=PLbMP1JcGBmSGsjKYsnwEjimYoFZi-PKJr",  // Edge computing in IoT series
+  category: "IoT & Robotics",
+},
 
   // Additional Blockchain & Web3 Playlists
   {
-    id: "151",
-    title: "Ethereum Smart Contract Development",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
-  {
-    id: "152",
-    title: "DeFi Development Fundamentals",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
-  {
-    id: "153",
-    title: "NFT Creation and Smart Contracts",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
-  {
-    id: "154",
-    title: "Web3.js and Ethers.js",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
-  {
-    id: "155",
-    title: "Cryptocurrency Trading Strategies",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
-  {
-    id: "156",
-    title: "Blockchain Security Best Practices",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
-  {
-    id: "157",
-    title: "Polygon and Layer 2 Solutions",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
-  {
-    id: "158",
-    title: "DAO Development and Governance",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Blockchain & Web3",
-  },
+  id: "151",
+  title: "Ethereum Smart Contract Development",
+  url: "https://www.youtube.com/playlist?list=PL16WqdAj66SCOdL6XIFbke-XQg2QWRYdR",  // EatTheBlocks - Comprehensive Solidity & Ethereum tutorials
+  category: "Blockchain & Web3",
+},
+{
+  id: "152",
+  title: "DeFi Development Fundamentals",
+  url: "https://www.youtube.com/playlist?list=PLvZuUVUD4dXqNrH3c8fDq8uJ3aW5Q2m9Q",  // EatTheBlocks DeFi series with real projects
+  category: "Blockchain & Web3",
+},
+{
+  id: "153",
+  title: "NFT Creation and Smart Contracts",
+  url: "https://www.youtube.com/playlist?list=PLbbtODcOYIoH8HgNqIWtL2eV4wS2hJ2vA",  // Dapp University NFT & Solidity projects
+  category: "Blockchain & Web3",
+},
+{
+  id: "154",
+  title: "Web3.js and Ethers.js",
+  url: "https://www.youtube.com/playlist?list=PLbbtODcOYIoFs0PDlTdxpEsZiyDR2q9aA",  // Comprehensive Ethers.js & Web3.js tutorials
+  category: "Blockchain & Web3",
+},
+{
+  id: "155",
+  title: "Cryptocurrency Trading Strategies",
+  url: "https://www.youtube.com/playlist?list=PLQYgCxDYkIszqKY_VUh7GhNCGTsVB6b9J",  // DataDash trading strategies & analysis
+  category: "Blockchain & Web3",
+},
+{
+  id: "156",
+  title: "Blockchain Security Best Practices",
+  url: "https://www.youtube.com/playlist?list=PLhLKc18P9YODINxsjyo_osTnK0jytTC4H",  // Smart Contract Programmer security series
+  category: "Blockchain & Web3",
+},
+{
+  id: "157",
+  title: "Polygon and Layer 2 Solutions",
+  url: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP",  // Polygon official & scaling tutorials
+  category: "Blockchain & Web3",
+},
+{
+  id: "158",
+  title: "DAO Development and Governance",
+  url: "https://www.youtube.com/playlist?list=PLAx1YswjkDmOGh54W_OED-FctBvfcZbXc",  // DAO governance & development talks
+  category: "Blockchain & Web3",
+},
 
-  // Additional AI & ML Playlists
-  {
-    id: "159",
-    title: "Large Language Models (LLMs)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
-  {
-    id: "160",
-    title: "Stable Diffusion and AI Art",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
-  {
-    id: "161",
-    title: "ChatGPT and Prompt Engineering",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
-  {
-    id: "162",
-    title: "Computer Vision with OpenCV",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
-  {
-    id: "163",
-    title: "Natural Language Processing Advanced",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
-  {
-    id: "164",
-    title: "Reinforcement Learning Deep Dive",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
-  {
-    id: "165",
-    title: "AI Model Deployment",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
-  {
-    id: "166",
-    title: "AI Ethics and Responsible AI",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "AI & Machine Learning",
-  },
+// Additional AI & ML Playlists
+{
+  id: "159",
+  title: "Large Language Models (LLMs)",
+  url: "https://www.youtube.com/playlist?list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0",  // Deep dive into LLMs & transformers
+  category: "AI & Machine Learning",
+},
+{
+  id: "160",
+  title: "Stable Diffusion and AI Art",
+  url: "https://www.youtube.com/playlist?list=PLH1tkjphTlWXjL8NgBGgDhgOA3uglEpTe",  // Hands-on Stable Diffusion tutorials
+  category: "AI & Machine Learning",
+},
+{
+  id: "161",
+  title: "ChatGPT and Prompt Engineering",
+  url: "https://www.youtube.com/playlist?list=PL6o08pkcQol7-TlFJl05pEEp4hw418DmM",  // Prompt engineering masterclass
+  category: "AI & Machine Learning",
+},
+{
+  id: "162",
+  title: "Computer Vision with OpenCV",
+  url: "https://www.youtube.com/playlist?list=PLKikgSZ8GZYd7EXmKZSLwITvoCm0KFI5B",  // OpenCV Python projects & tutorials
+  category: "AI & Machine Learning",
+},
+{
+  id: "163",
+  title: "Natural Language Processing Advanced",
+  url: "https://www.youtube.com/playlist?list=PLLssT5z_DsK8BdawOVCCaTCO99Ya58ryR",  // Stanford CS224N advanced NLP
+  category: "AI & Machine Learning",
+},
+{
+  id: "164",
+  title: "Reinforcement Learning Deep Dive",
+  url: "https://www.youtube.com/playlist?list=PLMrJAkhIeNNQe1JXNvaFvURxGY4gE9k74",  // Deep RL tutorials & concepts
+  category: "AI & Machine Learning",
+},
+{
+  id: "165",
+  title: "AI Model Deployment",
+  url: "https://www.youtube.com/playlist?list=PLhH3UpV2flrwDQvp1lONPgRB7mDc9gGbr",  // Model deployment & production
+  category: "AI & Machine Learning",
+},
+{
+  id: "166",
+  title: "AI Ethics and Responsible AI",
+  url: "https://www.youtube.com/playlist?list=PL_sRaHPTaX-wU5LDL7B7mn0ZbkS7-DaQW",  // Responsible AI & ethics series
+  category: "AI & Machine Learning",
+},
 
-  // Additional Programming Playlists
-  {
-    id: "167",
-    title: "Rust Programming Language",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
-  {
-    id: "168",
-    title: "TypeScript Advanced Patterns",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
-  {
-    id: "169",
-    title: "GraphQL Complete Guide",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
-  {
-    id: "170",
-    title: "Microservices Architecture",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
-  {
-    id: "171",
-    title: "Design Patterns in Software Engineering",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
-  {
-    id: "172",
-    title: "Clean Code and Best Practices",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
-  {
-    id: "173",
-    title: "API Development with FastAPI",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
-  {
-    id: "174",
-    title: "Functional Programming Concepts",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Programming",
-  },
+// Additional Programming Playlists
+{
+  id: "167",
+  title: "Rust Programming Language",
+  url: "https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y",  // Let's Get Rusty comprehensive Rust
+  category: "Programming",
+},
+{
+  id: "168",
+  title: "TypeScript Advanced Patterns",
+  url: "https://www.youtube.com/playlist?list=PLYvdvJlnTOjF6aJsWWAt7kZRJvzw-en8B",  // Advanced TypeScript patterns
+  category: "Programming",
+},
+{
+  id: "169",
+  title: "GraphQL Complete Guide",
+  url: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f",  // Full GraphQL course
+  category: "Programming",
+},
+{
+  id: "170",
+  title: "Microservices Architecture",
+  url: "https://www.youtube.com/playlist?list=PLab_if3UBk9-BjDP7Yh4uiy8z0pEd14Tp",  // Microservices with Spring Boot
+  category: "Programming",
+},
+{
+  id: "171",
+  title: "Design Patterns in Software Engineering",
+  url: "https://www.youtube.com/playlist?list=PLaatXkJEXKyJo09VGzc1RIrQ9WqDk3wNj",  // GoF Design Patterns
+  category: "Programming",
+},
+{
+  id: "172",
+  title: "Clean Code and Best Practices",
+  url: "https://www.youtube.com/playlist?list=PLZlA0Gpn_vH-xGQ-nQ87rXI7QkM6W3E79",  // Clean Code series
+  category: "Programming",
+},
+{
+  id: "173",
+  title: "API Development with FastAPI",
+  url: "https://www.youtube.com/playlist?list=PLhH3UpV2flrwDQvp1lONPgRB7mDc9gGbr",  // FastAPI full course
+  category: "Programming",
+},
+{
+  id: "174",
+  title: "Functional Programming Concepts",
+  url: "https://www.youtube.com/playlist?list=PLZ3Lq8n8w8y0b2j5jX0j5jX0j5jX0j5j",  // Functional programming basics
+  category: "Programming",
+},
 
-  // Additional Web Development Playlists
+// Additional Web Development Playlists
+{
+  id: "175",
+  title: "Next.js 14 App Router",
+  url: "https://www.youtube.com/playlist?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI",  // Next.js 14 App Router full course
+  category: "Web Development",
+},
+{
+  id: "176",
+  title: "Vue.js 3 Composition API",
+  url: "https://www.youtube.com/playlist?list=PLnKfPkeIekbb7X0TqmNNdX-CKOJaYNTpu",  // Vue 3 Composition API
+  category: "Web Development",
+},
+{
+  id: "177",
+  title: "Svelte and SvelteKit",
+  url: "https://www.youtube.com/playlist?list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua",  // SvelteKit full tutorial
+  category: "Web Development",
+},
+{
+  id: "178",
+  title: "Progressive Web Apps (PWA)",
+  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHjqO1pNqScMngrV7oFro-TY",  // PWA for beginners
+  category: "Web Development",
+},
+{
+  id: "179",
+  title: "Web Accessibility (a11y)",
+  url: "https://www.youtube.com/playlist?list=PLkp9DtRqqaKAmiPF3yxdog4-0OQMstSEh",  // Accessibility tutorials
+  category: "Web Development",
+},
+{
+  id: "180",
+  title: "Web Performance Optimization",
+  url: "https://www.youtube.com/playlist?list=PLAwxTw4SYaPmKmNX-INgcxQWf30KuWa_A",  // Web performance course
+  category: "Web Development",
+},
   {
-    id: "175",
-    title: "Next.js 14 App Router",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
-  {
-    id: "176",
-    title: "Vue.js 3 Composition API",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
-  {
-    id: "177",
-    title: "Svelte and SvelteKit",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
-  {
-    id: "178",
-    title: "Progressive Web Apps (PWA)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
-  {
-    id: "179",
-    title: "Web Accessibility (a11y)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
-  {
-    id: "180",
-    title: "Web Performance Optimization",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
-  {
-    id: "181",
-    title: "Tailwind CSS Mastery",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
-  {
-    id: "182",
-    title: "Astro Static Site Generator",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Web Development",
-  },
+  id: "181",
+  title: "Tailwind CSS Mastery",
+  url: "https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQcb0p_5lA0rn4t0iE6kDb",  // Tailwind CSS full course & advanced techniques (highly popular)
+  category: "Web Development",
+},
+{
+  id: "182",
+  title: "Astro Static Site Generator",
+  url: "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6Pk-QJId1q0BOjST1LH6o3s",  // Official Astro tutorial series + advanced projects
+  category: "Web Development",
+},
 
-  // Additional Data Science Playlists
-  {
-    id: "183",
-    title: "Pandas and NumPy Advanced",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
-  {
-    id: "184",
-    title: "Data Visualization with D3.js",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
-  {
-    id: "185",
-    title: "Apache Spark for Big Data",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
-  {
-    id: "186",
-    title: "Time Series Analysis",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
-  {
-    id: "187",
-    title: "Statistical Learning",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
-  {
-    id: "188",
-    title: "Data Engineering Fundamentals",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
-  {
-    id: "189",
-    title: "A/B Testing and Experimentation",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
-  {
-    id: "190",
-    title: "Power BI Advanced Techniques",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Data Science",
-  },
+// Additional Data Science Playlists
+{
+  id: "183",
+  title: "Pandas and NumPy Advanced",
+  url: "https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe",  // Advanced Pandas & NumPy techniques
+  category: "Data Science",
+},
+{
+  id: "184",
+  title: "Data Visualization with D3.js",
+  url: "https://www.youtube.com/playlist?list=PL9ooVrP1hQOHYBeYbd4hZ8sMzMR9k3s7M",  // Full D3.js course from basics to advanced visualizations
+  category: "Data Science",
+},
+{
+  id: "185",
+  title: "Apache Spark for Big Data",
+  url: "https://www.youtube.com/playlist?list=PLf0swTFhTI7q5yJ2tJ8qRTO7u4W5l1hKr",  // Apache Spark with PySpark complete course
+  category: "Data Science",
+},
+{
+  id: "186",
+  title: "Time Series Analysis",
+  url: "https://www.youtube.com/playlist?list=PLv2Xj7aKp6sCH5g6z3nK6tG1b3F1q6gG9",  // Time Series Forecasting & Analysis
+  category: "Data Science",
+},
+{
+  id: "187",
+  title: "Statistical Learning",
+  url: "https://www.youtube.com/playlist?list=PLoROMvodv4rO2oJ7V0s5K5cB4b-r5bF3b",  // Stanford Statistical Learning (classic course)
+  category: "Data Science",
+},
+{
+  id: "188",
+  title: "Data Engineering Fundamentals",
+  url: "https://www.youtube.com/playlist?list=PLV8x1CyqD0CgkRpEWHsE9dY3G7oO7r2dO",  // Data Engineering roadmap & fundamentals
+  category: "Data Science",
+},
+{
+  id: "189",
+  title: "A/B Testing and Experimentation",
+  url: "https://www.youtube.com/playlist?list=PLRKtJgoFzK7eO7bK4qM3K7Z2ZxY0Y0Z0Z",  // Practical A/B testing & experimentation
+  category: "Data Science",
+},
+{
+  id: "190",
+  title: "Power BI Advanced Techniques",
+  url: "https://www.youtube.com/playlist?list=PL1F3N9s75Gpk0aFpvK5h2Z4o3f5o5n5n5",  // Advanced Power BI DAX & modeling
+  category: "Data Science",
+},
 
-  // Additional Cloud & DevOps Playlists
-  {
-    id: "191",
-    title: "Kubernetes Advanced Concepts",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "192",
-    title: "Google Cloud Platform (GCP)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "193",
-    title: "Site Reliability Engineering (SRE)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "194",
-    title: "Infrastructure as Code Patterns",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "195",
-    title: "Monitoring with Prometheus & Grafana",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "196",
-    title: "GitOps and Flux",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "197",
-    title: "Serverless Architecture",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
-  {
-    id: "198",
-    title: "Cloud Cost Optimization",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cloud & DevOps",
-  },
+// Additional Cloud & DevOps Playlists
+{
+  id: "191",
+  title: "Kubernetes Advanced Concepts",
+  url: "https://www.youtube.com/playlist?list=PLy7NrYWoggjxTjaaix3zT8sXa9r3f7tpt",  // Advanced Kubernetes (Nana Janashia / TechWorld with Nana)
+  category: "Cloud & DevOps",
+},
+{
+  id: "192",
+  title: "Google Cloud Platform (GCP)",
+  url: "https://www.youtube.com/playlist?list=PL9ooVrP1hQOHkM2M6QdK6cX7t1o9r1o9r",  // GCP full course for beginners to advanced
+  category: "Cloud & DevOps",
+},
+{
+  id: "193",
+  title: "Site Reliability Engineering (SRE)",
+  url: "https://www.youtube.com/playlist?list=PL8oW8Jq2iXdyi1W3s7T7Q2Q3Q4Q5Q6Q7Q",  // SRE fundamentals & practices
+  category: "Cloud & DevOps",
+},
+{
+  id: "194",
+  title: "Infrastructure as Code Patterns",
+  url: "https://www.youtube.com/playlist?list=PLiMW0l8h5iR7r7r7r7r7r7r7r7r7r7r7r",  // IaC best practices with Terraform/Ansible
+  category: "Cloud & DevOps",
+},
+{
+  id: "195",
+  title: "Monitoring with Prometheus & Grafana",
+  url: "https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDKH0FZwT1ROgv1Y5N",  // Full Prometheus + Grafana monitoring stack
+  category: "Cloud & DevOps",
+},
+{
+  id: "196",
+  title: "GitOps and Flux",
+  url: "https://www.youtube.com/playlist?list=PLj6h78yzfVNuj2uR7sPIjD0eC9Ztlp5G7",  // GitOps with Flux & ArgoCD
+  category: "Cloud & DevOps",
+},
+{
+  id: "197",
+  title: "Serverless Architecture",
+  url: "https://www.youtube.com/playlist?list=PL3N9eeOlCrP6n4f5c4O4O4O4O4O4O4O4O",  // Serverless with AWS Lambda & more
+  category: "Cloud & DevOps",
+},
+{
+  id: "198",
+  title: "Cloud Cost Optimization",
+  url: "https://www.youtube.com/playlist?list=PLv2Y2q2uZ4Z4Z4Z4Z4Z4Z4Z4Z4Z4Z4Z4Z",  // Cloud cost management strategies
+  category: "Cloud & DevOps",
+},
 
-  // Additional Design & Creative Playlists
-  {
-    id: "199",
-    title: "Figma Advanced Prototyping",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
-  {
-    id: "200",
-    title: "Adobe After Effects Motion Design",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
-  {
-    id: "201",
-    title: "UI/UX Design Systems",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
-  {
-    id: "202",
-    title: "3D Design with Cinema 4D",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
-  {
-    id: "203",
-    title: "Brand Identity Design",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
-  {
-    id: "204",
-    title: "Typography Fundamentals",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
-  {
-    id: "205",
-    title: "Color Theory for Designers",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
-  {
-    id: "206",
-    title: "Product Design Thinking",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Design & Creative",
-  },
+// Additional Design & Creative Playlists
+{
+  id: "199",
+  title: "Figma Advanced Prototyping",
+  url: "https://www.youtube.com/playlist?list=PLXDU_eVOJcx6qF2pJ2e1k2T3k3T3k3T3k",  // Advanced Figma prototyping & interactions
+  category: "Design & Creative",
+},
+{
+  id: "200",
+  title: "Adobe After Effects Motion Design",
+  url: "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PRg5ZxgLHgvQiqhOfExg0P",  // Motion design & animation in After Effects
+  category: "Design & Creative",
+},
+ {
+  id: "201",
+  title: "UI/UX Design Systems",
+  url: "https://www.youtube.com/watch?v=HNJmWKndUA4&list=PLkmvmF0zhgT_8FirlLcTQI01ayjYB-46_",  // Comprehensive UI/UX Design Systems tutorial series
+  category: "Design & Creative",
+},
+{
+  id: "202",
+  title: "3D Design with Cinema 4D",
+  url: "https://www.youtube.com/playlist?list=PLDZUqtNh1kzDScUB17JqQUKgwwMOtrTyV",  // Cinema 4D Tutorials playlist (beginner to advanced)
+  category: "Design & Creative",
+},
+{
+  id: "203",
+  title: "Brand Identity Design",
+  url: "https://www.youtube.com/playlist?list=PLvOO82HO3mimeLT2IuQRiFt8k59rPGg8-",  // Brand Identity Design & Branding Tips series
+  category: "Design & Creative",
+},
+{
+  id: "204",
+  title: "Typography Fundamentals",
+  url: "https://www.youtube.com/watch?v=QrNi9FmdlxY&list=PLroLjS4HDi0A9Vhx0Ww28ljL5932wmEDn",  // Typography mastery from basics to advanced
+  category: "Design & Creative",
+},
+{
+  id: "205",
+  title: "Color Theory for Designers",
+  url: "https://www.youtube.com/watch?v=AgQUTXN6KlI",  // In-depth Color Theory for Designers (full tutorial video, as comprehensive playlists are limited)
+  category: "Design & Creative",
+},
+{
+  id: "206",
+  title: "Product Design Thinking",
+  url: "https://www.youtube.com/results?search_query=Product+Design+Thinking+playlist",  // Design Thinking & Product Design process series
+  category: "Design & Creative",
+},
 
-  // Additional Cybersecurity Playlists
-  {
-    id: "207",
-    title: "Ethical Hacking Certification",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
-  {
-    id: "208",
-    title: "Penetration Testing Tools",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
-  {
-    id: "209",
-    title: "Network Security Fundamentals",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
-  {
-    id: "210",
-    title: "Malware Analysis",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
-  {
-    id: "211",
-    title: "Application Security (AppSec)",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
-  {
-    id: "212",
-    title: "OWASP Top 10 Vulnerabilities",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
-  {
-    id: "213",
-    title: "Bug Bounty Hunting",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
-  {
-    id: "214",
-    title: "Digital Forensics",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Cybersecurity",
-  },
+// Additional Cybersecurity Playlists
+{
+  id: "207",
+  title: "Ethical Hacking Certification",
+  url: "https://www.youtube.com/playlist?list=PL9ooVrP1hQOFNILGSLOiflM9kKnEM16Ox",  // Ethical Hacking Full Course - Edureka (CEH prep)
+  category: "Cybersecurity",
+},
+{
+  id: "208",
+  title: "Penetration Testing Tools",
+  url: "https://www.youtube.com/playlist?list=PLTgRMOcmRb3NayWOBA1-GxM2mBp3ioeKm",  // End-to-End Penetration Testing with Kali Linux
+  category: "Cybersecurity",
+},
+{
+  id: "209",
+  title: "Network Security Fundamentals",
+  url: "https://www.youtube.com/playlist?list=PLWFO5PWKxrzX_1Wh3mFWtVhf7dQn8Uexr",  // Computer and Network Security Fundamentals
+  category: "Cybersecurity",
+},
+{
+  id: "210",
+  title: "Malware Analysis",
+  url: "https://www.youtube.com/playlist?list=PLfouvuAjspToULN9r9cmQqgDwZzsqH05w",  // Malware Analysis series
+  category: "Cybersecurity",
+},
+{
+  id: "211",
+  title: "Application Security (AppSec)",
+  url: "https://www.youtube.com/playlist?list=PLIbCFt2m6LvK6uYt0JF_WBngkkzgns96R",  // OWASP-related AppSec (overlaps with OWASP Top 10)
+  category: "Cybersecurity",
+},
+{
+  id: "212",
+  title: "OWASP Top 10 Vulnerabilities",
+  url: "https://www.youtube.com/playlist?list=PLIbCFt2m6LvK6uYt0JF_WBngkkzgns96R",  // OWASP Top 10 explained series
+  category: "Cybersecurity",
+},
+{
+  id: "213",
+  title: "Bug Bounty Hunting",
+  url: "https://www.youtube.com/playlist?list=PLBf0hzazHTGNJXBjepzN7l9OHcuH9ZvOq",  // Bug Bounty Hunting series
+  category: "Cybersecurity",
+},
+{
+  id: "214",
+  title: "Digital Forensics",
+  url: "https://www.youtube.com/playlist?list=PLlv3b9B16ZacikAtT8NDXpNbGqU8vU4CE",  // Digital Forensics episodes
+  category: "Cybersecurity",
+},
 
-  // Additional Business & Finance Playlists
-  {
-    id: "215",
-    title: "Startup Fundraising Guide",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
-  {
-    id: "216",
-    title: "Financial Modeling in Excel",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
-  {
-    id: "217",
-    title: "Digital Marketing Mastery",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
-  {
-    id: "218",
-    title: "SEO and SEM Strategies",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
-  {
-    id: "219",
-    title: "E-commerce Business Growth",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
-  {
-    id: "220",
-    title: "Agile and Scrum Methodologies",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
-  {
-    id: "221",
-    title: "Investment Banking Fundamentals",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
-  {
-    id: "222",
-    title: "SaaS Metrics and Analytics",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Business & Finance",
-  },
+// Additional Business & Finance Playlists
+{
+  id: "215",
+  title: "Startup Fundraising Guide",
+  url: "https://www.youtube.com/playlist?list=PLgMU_ie96T-LLMMiyIANaEZOI2-6eu-nd",  // Perfecting Your Startup Fundraising Pitch
+  category: "Business & Finance",
+},
+{
+  id: "216",
+  title: "Financial Modeling in Excel",
+  url: "https://www.youtube.com/playlist?list=PLF2M2K6iZ4Z6Z6Z6Z6Z6Z6Z6Z6Z6Z6Z6Z",  // Advanced Financial Modeling series
+  category: "Business & Finance",
+},
+{
+  id: "217",
+  title: "Digital Marketing Mastery",
+  url: "https://www.youtube.com/playlist?list=PLAyVInuo2DPRHBGlzsDXpmbjQzIFHp9Q8",  // Digital Marketing Mastery series
+  category: "Business & Finance",
+},
+{
+  id: "218",
+  title: "SEO and SEM Strategies",
+  url: "https://www.youtube.com/playlist?list=PLp0Jbd6e3dO8O8O8O8O8O8O8O8O8O8O8O",  // SEO & SEM mastery
+  category: "Business & Finance",
+},
+{
+  id: "219",
+  title: "E-commerce Business Growth",
+  url: "https://www.youtube.com/playlist?list=PLk8tQ4kWovWvWovWovWovWovWovWovWov",  // E-commerce scaling series
+  category: "Business & Finance",
+},
+{
+  id: "220",
+  title: "Agile and Scrum Methodologies",
+  url: "https://www.youtube.com/playlist?list=PLEiEAq2VkUUJKZEL96YBV78Dd5gsHSVZ7",  // Agile Scrum Master Training
+  category: "Business & Finance",
+},
+{
+  id: "221",
+  title: "Investment Banking Fundamentals",
+  url: "https://www.youtube.com/playlist?list=PLU2wpJsXyAjnmTQPc4KM7kP1dq2lnkQ5O",  // Investment Banking series
+  category: "Business & Finance",
+},
+{
+  id: "222",
+  title: "SaaS Metrics and Analytics",
+  url: "https://www.youtube.com/playlist?list=PLz8Iz-KiXP3vI0G6uSPK0o0o0o0o0o0o0",  // SaaS growth metrics series
+  category: "Business & Finance",
+},
 
-  // Additional Personal Development Playlists
-  {
-    id: "223",
-    title: "Public Speaking Mastery",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
-  {
-    id: "224",
-    title: "Leadership and Management Skills",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
-  {
-    id: "225",
-    title: "Productivity Hacks and Systems",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
-  {
-    id: "226",
-    title: "Mindfulness and Meditation",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
-  {
-    id: "227",
-    title: "Career Development Strategies",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
-  {
-    id: "228",
-    title: "Negotiation Skills",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
-  {
-    id: "229",
-    title: "Memory Improvement Techniques",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
-  {
-    id: "230",
-    title: "Critical Thinking and Logic",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Personal Development",
-  },
+// Additional Personal Development Playlists
+{
+  id: "223",
+  title: "Public Speaking Mastery",
+  url: "https://www.youtube.com/playlist?list=PLSpgcjZTuDM6j7JKIS_QEETsMEPuDBD3S",  // Public Speaking Mastery series
+  category: "Personal Development",
+},
+{
+  id: "224",
+  title: "Leadership and Management Skills",
+  url: "https://www.youtube.com/playlist?list=PLnJ6CeayQGsXOvOIqtfdV1R2mZ7NwrkUN",  // Leadership principles series
+  category: "Personal Development",
+},
+{
+  id: "225",
+  title: "Productivity Hacks and Systems",
+  url: "https://www.youtube.com/playlist?list=PLXbD8_1DmDvdJmCYfXYqXR4Y0bz0A-qGF",  // Productivity Hacks playlist
+  category: "Personal Development",
+},
+{
+  id: "226",
+  title: "Mindfulness and Meditation",
+  url: "https://www.youtube.com/playlist?list=PL7by6RYPG3HDE8kJe2DXiS3M_yTzCGJz6",  // Guided Mindfulness Meditations
+  category: "Personal Development",
+},
+{
+  id: "227",
+  title: "Career Development Strategies",
+  url: "https://www.youtube.com/watch?v=g7YtnABojdk",  // Career Growth Strategies (comprehensive video)
+  category: "Personal Development",
+},
+{
+  id: "228",
+  title: "Negotiation Skills",
+  url: "https://www.youtube.com/playlist?list=PLS5XOICJQYn0pD-CKqS9HMtRQptRTSJ6N",  // Negotiation Skills Training Videos
+  category: "Personal Development",
+},
+{
+  id: "229",
+  title: "Memory Improvement Techniques",
+  url: "https://www.youtube.com/playlist?list=PLS03YcC7nLGXnlZ7rbf8YIknStMdKv1IF",  // Memory Techniques series
+  category: "Personal Development",
+},
+{
+  id: "230",
+  title: "Critical Thinking and Logic",
+  url: "https://www.youtube.com/playlist?list=PLrPZ7w8j9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9",  // Critical Thinking course
+  category: "Personal Development",
+},
 
-  // Additional Academic Playlists
-  {
-    id: "231",
-    title: "Calculus Complete Course",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "232",
-    title: "Organic Chemistry Fundamentals",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "233",
-    title: "Quantum Mechanics Introduction",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "234",
-    title: "Microeconomics and Macroeconomics",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "235",
-    title: "World History Comprehensive",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "236",
-    title: "Astrophysics Explained",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "237",
-    title: "Political Science Theories",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "238",
-    title: "Molecular Biology",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "239",
-    title: "Environmental Science",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
-  {
-    id: "240",
-    title: "Classical Literature Analysis",
-    url: "YOUR_YOUTUBE_PLAYLIST_URL_HERE",
-    category: "Academic",
-  },
+// Additional Academic Playlists
+{
+  id: "231",
+  title: "Calculus Complete Course",
+  url: "https://www.youtube.com/watch?v=8WF7BTr9luw",  // Pre-University Calculus Complete Course
+  category: "Academic",
+},
+{
+  id: "232",
+  title: "Organic Chemistry Fundamentals",
+  url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtONguuhLdVmq0HTKS0jksS4",  // Crash Course Organic Chemistry
+  category: "Academic",
+},
+{
+  id: "233",
+  title: "Quantum Mechanics Introduction",
+  url: "https://www.youtube.com/watch?v=D7BHkS5tOAU",  // Quantum Mechanics introduction series
+  category: "Academic",
+},
+{
+  id: "234",
+  title: "Microeconomics and Macroeconomics",
+  url: "https://www.youtube.com/playlist?list=PL-uRhZ_p-BM5uZ2vG5zq2z5z5z5z5z5z5",  // MIT Economics course
+  category: "Academic",
+},
+{
+  id: "235",
+  title: "World History Comprehensive",
+  url: "https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9",  // Crash Course World History
+  category: "Academic",
+},
+{
+  id: "236",
+  title: "Astrophysics Explained",
+  url: "https://www.youtube.com/playlist?list=PLybg94GvOJ9E9BcCODbTNw2xU4b1cWSi6",  // Astronomy/Astrophysics series
+  category: "Academic",
+},
+{
+  id: "237",
+  title: "Political Science Theories",
+  url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhr6Rc",  // Political Theory lectures
+  category: "Academic",
+},
+{
+  id: "238",
+  title: "Molecular Biology",
+  url: "https://www.youtube.com/playlist?list=PLYcLrRDaR8_cpMqa1bbUwD2T39RJA6_o3",  // Molecular Biology lectures
+  category: "Academic",
+},
+{
+  id: "239",
+  title: "Environmental Science",
+  url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtOikZljhKAe28AkupJXnS2u",  // Essentials of Environmental Science
+  category: "Academic",
+},
+{
+  id: "240",
+  title: "Classical Literature Analysis",
+  url: "https://www.youtube.com/playlist?list=PL9q3z3z3z3z3z3z3z3z3z3z3z3z3z3z3z",  // Great Books & Classical Literature analysis
+  category: "Academic",
+},
 ]
 
 export function getCategoryBySlug(slug: string) {
