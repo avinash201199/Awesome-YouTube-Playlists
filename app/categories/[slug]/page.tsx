@@ -5,6 +5,9 @@ import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { notFound } from "next/navigation"
 
+export const dynamic = "force-static"
+export const revalidate = 3600 // 1 hour
+
 export function generateStaticParams() {
   return categories
     .filter((cat) => cat !== "All")
