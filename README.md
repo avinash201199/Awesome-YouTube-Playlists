@@ -156,7 +156,12 @@ _Last updated: December 20, 2025_
 
 ---
 
-**Contributions Welcome!**  
-Found a great playlist? Open an issue or submit a pull request.
+
+## Contributing
+
+Found a great playlist? Please read our [Contributing Guidelines](CONTRIBUTING.md)!
+
+- **To add a playlist:** Edit the `playlists` array in [`lib/playlists.ts`](lib/playlists.ts) and follow the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
+- You can also open an issue or submit a pull request for other improvements.
 
 ⭐ Star this repo if you find it helpful!
