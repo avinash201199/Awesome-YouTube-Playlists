@@ -12,7 +12,7 @@ export function generateStaticParams() {
   return categories
     .filter((cat) => cat !== "All")
     .map((category) => ({
-      slug: encodeURIComponent(category),
+      slug: category,
     }))
 }
 
