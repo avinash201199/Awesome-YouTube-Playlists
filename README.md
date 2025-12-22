@@ -159,9 +159,13 @@ _Last updated: December 20, 2025_
 
 ## Contributing
 
+
 Found a great playlist? Please read our [Contributing Guidelines](CONTRIBUTING.md)!
 
-- **To add a playlist:** Edit the `playlists` array in [`lib/playlists.ts`](lib/playlists.ts) and follow the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
+- **To add a playlist:**
+	1. Edit the `playlists` array in [`lib/playlists.ts`](lib/playlists.ts).
+	2. Add the playlist entry in the appropriate section of this `README.md` file.
+	3. Follow the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
 - You can also open an issue or submit a pull request for other improvements.
 
 ⭐ Star this repo if you find it helpful!
